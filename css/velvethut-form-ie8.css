@@ -1,0 +1,67 @@
+/*----------*/
+/* defaults */
+/*----------*/
+
+.velvethut-form header {
+	background: rgb(248,248,248);
+}
+.velvethut-form fieldset {
+	background: rgb(255,255,255);
+}
+.velvethut-form footer {
+	background: rgb(248,248,248);
+}
+
+
+/*-------------*/
+/* file inputs */
+/*-------------*/
+
+.velvethut-form .input-file .button input {
+	filter: alpha(opacity=0);
+}
+
+
+/*-----------------------*/
+/* radios and checkboxes */
+/*-----------------------*/
+
+.velvethut-form .radio input + i:after,
+.velvethut-form .checkbox input + i:after {
+	display: none;
+}
+.velvethut-form .radio .checked + i:after,
+.velvethut-form .checkbox .checked + i:after {
+	display: block;
+}
+
+
+/*---------*/
+/* toggles */
+/*---------*/
+
+.velvethut-form .toggle input.checked + i:after {
+	content: 'ON';
+	text-align: right;
+}
+.velvethut-form .toggle input.checked + i:before {
+	right: 36px;
+}
+
+
+/*---------*/
+/* ratings */
+/*---------*/
+
+.velvethut-form .rating input.checked + label,
+.velvethut-form .rating input.checked + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label,
+.velvethut-form .rating input.checked + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label + input + label {
+	color: #2da5da;
+}

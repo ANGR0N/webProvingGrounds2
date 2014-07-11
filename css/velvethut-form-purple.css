@@ -1,0 +1,80 @@
+/*--------------*/
+/* normal state */
+/*--------------*/
+
+.velvethut-form .toggle i:before {
+	background-color: #592469;	
+}
+
+.velvethut-form .button {
+	background-color: #592469;
+}
+
+
+/*-------------*/
+/* hover state */
+/*-------------*/
+
+.velvethut-form .input:hover input,
+.velvethut-form .select:hover select,
+.velvethut-form .textarea:hover textarea,
+.velvethut-form .radio:hover i,
+.velvethut-form .checkbox:hover i,
+.velvethut-form .toggle:hover i {
+	border-color: #339933;
+}
+
+.velvethut-form .rating input + label:hover,
+.velvethut-form .rating input + label:hover ~ label {
+	color: #592469;
+}
+
+
+/*-------------*/
+/* focus state */
+/*-------------*/
+
+.velvethut-form .input input:focus,
+.velvethut-form .select select:focus,
+.velvethut-form .textarea textarea:focus,
+.velvethut-form .radio input:focus + i,
+.velvethut-form .checkbox input:focus + i,
+.velvethut-form .toggle input:focus + i {
+	border-color: #592469;
+}
+
+
+/*---------------*/
+/* checked state */
+/*---------------*/
+
+.velvethut-form .radio input + i:after {
+	background-color: #592469;	
+}
+
+.velvethut-form .checkbox input + i:after {
+	color: #592469;
+}
+
+.velvethut-form .radio input:checked + i,
+.velvethut-form .checkbox input:checked + i,
+.velvethut-form .toggle input:checked + i {
+	border-color: #592469;	
+}
+
+.velvethut-form .rating input:checked ~ label {
+	color: #592469;	
+}
+
+
+/*--------------------------*/
+/* margin & padding control */
+/*--------------------------*/
+
+.m-l {
+	margin-left: 10px;
+}
+
+.m-r {
+	margin-right: 10px;
+}
